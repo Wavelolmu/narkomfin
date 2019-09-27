@@ -11,19 +11,28 @@ body {
   background-position: top center;
   background-size: 800px 20624px;
   font-family: 'pt sans';
-  font-size: 22px;
-  color: red;
+  font-size: 24px;
+  /* color: red; */
+}
+
+div {
+  border-left: 2px solid black;
+  padding-left: 20px;
+}
+
+em {
+  margin-top: 16px;
 }
 
 h1 {
   font-family: pt sans;
   font-size: 44px;
-  margin-bottom: 4px;
+  margin-bottom: 12 px;
 }
 
 h1 + p {
-  margin-top: -10px;
-  /* color: gray; */
+  margin-top: -12px;
+  color: gray;
 }
 
 p {
@@ -31,13 +40,20 @@ p {
 }
 
 h2 {
-  margin-top: 28px;
   margin-bottom: -20px;
 }
 
-h3 {
-  margin-top: 20px;
-  margin-left: 0px;
+p + h2 {
+  margin-top: 40px;
+}
+
+h3 + p {
+  margin-top: -12px;
+}
+
+h4  {
+  margin-bottom: -12px;
+  margin-top: 12px;
 }
 
 .heads {
@@ -47,11 +63,6 @@ h3 {
   padding-top: 1px;
   padding-left: 25px;
   border: 1px solid black;
-}
-
-h3 {
-  margin-left: 140px;
-  margin-right: auto;;
 }
 
 div ul {
