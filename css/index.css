@@ -1,0 +1,33 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px 21.5% 40px 21.5%;
+  background-color: #e5ebff;
+}
+
+article {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 24px;
+  box-shadow: 0px 6px 14px blue;
+  transition: margin-bottom 1s ease;
+  position: relative;
+}
+
+article:hover {
+  margin-bottom: 5px;
+}
+
+
+
+#narkomfinImage {
+  width: 100%;
+  height: 80%;
+}

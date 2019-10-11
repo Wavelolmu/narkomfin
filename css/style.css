@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
 
+@import "reset.css";
+
+@import "nav.css";
+
 body {
   width: 700px;
   margin-left: auto;
@@ -11,8 +15,15 @@ body {
   background-position: top center;
   background-size: 800px 20624px;
   font-family: 'pt sans';
-  font-size: 24px;
+  font-size: 18px;
   /* color: red; */
+}
+
+p + ol li{
+  list-style-type:decimal;
+  list-style-position: inside;
+  line-height: 28px;
+  margin-left: 40px;
 }
 
 div {
@@ -20,14 +31,32 @@ div {
   padding-left: 20px;
 }
 
-em {
-  margin-top: 16px;
-}
-
 h1 {
   font-family: pt sans;
   font-size: 44px;
   margin-bottom: 12 px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 48px 0 20px 0;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 44px 0 0px 0;
+}
+
+h3 + h4 {
+  margin-top: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 28px 0 -14px 0;
 }
 
 h1 + p {
@@ -37,37 +66,13 @@ h1 + p {
 
 p {
   line-height: 32px;
+  margin-top: 24px;
 }
 
-h2 {
-  margin-bottom: -20px;
+a {
+  text-decoration: none;
 }
 
-p + h2 {
-  margin-top: 40px;
-}
-
-h3 + p {
-  margin-top: -12px;
-}
-
-h4  {
-  margin-bottom: -12px;
-  margin-top: 12px;
-}
-
-.heads {
-  background-color: #effeef;
-  width:400px;
-  height: 820px;
-  padding-top: 1px;
-  padding-left: 25px;
-  border: 1px solid black;
-}
-
-div ul {
-  list-style-type: none;
-  margin-left: -15px;
-  font-size: 14px;
-  line-height: 20px;
+*:visited {
+  color: blue;
 }
